@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador de Asteristicos </title>
+</head>
+<body>
+
+
+
+    <script>
+
+        // Criar uma funçã oque exibe a quantidade de *
+        // que aquela linha possui exibe
+        
+        exibirAsteristicos(10);
+
+        function exibirAsteristicos(linhas){
+            let padrao = "";
+        //     for(let linha = 1; linha <= linhas; linha++ ){
+        //         padrao += '*';
+        //         console.log(padrao)
+        //     }
+            
+            for(let linha = 1; linha <= linhas; linha++){
+                let padrao = '';
+                for (let i = 0; i < linha; i++ ){
+                    padrao += '*'
+                }
+                console.log(padrao)
+            }
+        }
+        
+
+
+    </script>
+    
+</body>
+</html>
